@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bundle AI Web</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>Bundle AI Optimizer</h2>
+    <form id="bundle-form">
+        <label>Upload Dataset:</label><br>
+        <input type="file" name="dataset" required><br>
+        <label>Cost Limit:</label><br>
+        <input type="number" name="cost_limit" value="15000" required><br>
+        <label>Weight Limit:</label><br>
+        <input type="number" name="weight_limit" value="100" required><br>
+        <button type="submit">Run Bundle AI</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
